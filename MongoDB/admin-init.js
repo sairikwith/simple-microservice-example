@@ -6,3 +6,4 @@ db.createUser(
     roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
    }
 )
+
