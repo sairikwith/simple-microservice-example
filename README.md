@@ -58,6 +58,13 @@ Follow the instructions from [Mongo to install MongoDB on Ubuntu.](https://www.m
 
 Make sure to run the systemd(systemctl) instructions at the end to enable and start MongoDB running as a background service.
 
+Finally make sure you initialize the database admin user and database with starter data.
+
+```bash
+mongosh < admin-init.js
+mongosh < init-db.js
+```
+
 ## Initialize Redis
 
 Follow the instructions from [Redis to install Redis on Ubuntu.](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-linux/)
